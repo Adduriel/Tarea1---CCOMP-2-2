@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int radio;
+    float pi = 3.14159;
+    cout<<"Pon el radio del circulo: ";
+    cin>>radio;
+
+    float diametro = 2 * radio;
+    float area = pi * (radio * radio);
+    float circu = 2 * pi * radio;
+    cout<<"El diametro es: "<<diametro<<"\n";
+    cout<<"El area es: "<<area<<"\n";
+    cout<<"La circunferencia es: "<<circu<<"\n";
+};
