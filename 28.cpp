@@ -3,9 +3,14 @@
 using namespace std;
 
 int main(){
-    int a, b, c, d;
-    cout<<"Ingrese 4 valores: ";
-    cin>>a>>b>>c>>d;
+    int num=4567;
+    cout<<num%10;
+    num/=10;
+    cout<<num%10;
+    num/=10;
+    cout<<num%10;
+    num/=10;
 
-    cout<<d<<"  "<<c<<"  "<<b<<"  "<<a<<"  \n";
+    cout<<num;
 }
+
