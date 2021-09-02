@@ -2,12 +2,10 @@
 
 using namespace std;
 
-int veintisiete(char letra){
-    int valorASCII = letra;
-    return valorASCII;
-}
-
 int main(){
-    cout<<veintisiete('a')<<endl;
+    char a;
+    cout<<"Ingresa un caracter: ";
+    cin>>a;
+    cout<<static_cast<int>(a)<<endl;
 }
 
